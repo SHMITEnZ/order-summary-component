@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+ 
+:root{
+ /*Primary*/
+--Paleblue-: hsl(225, 100%, 94%);
+--Bright-blue-: hsl(245, 75%, 52%);
+
+/*Neutral*/
+--Verypaleblue-: hsl(225, 100%, 98%);
+--Desaturated-blue-: hsl(224, 23%, 55%);
+--Darkblue-: hsl(223, 47%, 23%);
+
+ }
+
+ /*reset*/
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+ /*main styles*/
+html{
+    font-size: 62.5%; /*set the font to 10px for easier rem calculation*/
+}
+
+ body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    height:100vh;
+    background-color: var(--Paleblue-);
+    color: var(--Desaturated-blue-);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+ }
+
+ .card{
+    max-width: 90%;
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .card__content{
+    padding: 3rem;
+ }
+
+ .header__title,
+ .header__text,
+ .card__data{
+    margin-bottom: 2rem;
+
+ }
+
+ /*hero*/
+
+ .card__hero{
+    max-width: 100%;
+ }
+
+ .hero__img{
+    max-width: 100%;
+    display: block;
+    border-radius: 2rem 2rem 0 0 ;
+ }
+
+ /*card header*/
+
+ .card__header{
+    text-align: center;
+ }
+
+ .header__title{
+    color: var(--Darkblue-);
+    font-weight: 900;
+ }
+
+/*card data*/
+.card__data{
+    background-color: var(--Verypaleblue-);
+    display:flex;
+    font-size:1.4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 1rem;
+}
+
+.data__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-starts;
+}
+
+.data__plan{
+    margin-left: 1.5rem;
+}
+
+.plan__title{
+    font-weight: 900;
+    color: var(--Darkblue-);
+}
+
+.data__link{
+    font-weight: 900;
+}
+
+/*checkout*/
+.checkout__btn{
+    display:block;
+    width:100%;
+    background-color: var(--Bright-blue-);
+    border: none;
+    border-radius: 1rem;
+    padding:1.5rem;
+    color:var(--Verypaleblue-);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+ /*footer*/
+ .attribution{
+    display: none;
+}
