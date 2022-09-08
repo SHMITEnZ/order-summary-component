@@ -51,7 +51,8 @@ html{
 
  .header__title,
  .header__text,
- .card__data{
+ .card__data,
+ .checkout__btn{
     margin-bottom: 2rem;
 
  }
@@ -118,8 +119,17 @@ html{
     border-radius: 1rem;
     padding:1.5rem;
     color:var(--Verypaleblue-);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
+}
+
+.checkout__link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--Desaturated-blue-);
+    font-weight: bold;
+
 }
 
  /*footer*/
