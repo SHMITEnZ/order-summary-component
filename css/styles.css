@@ -155,6 +155,8 @@ html{
 @media (min-width: 800px){
    body{
       background-image: url("../images/pattern-background-desktop.svg");
+      background-size: 100%;
       background-repeat: no-repeat;
+
    }
 }
